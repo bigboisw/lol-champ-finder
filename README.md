@@ -1,4 +1,4 @@
-# resto-project
+# lol-champ-project
 
 ## Project setup
 ```
