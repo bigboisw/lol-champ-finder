@@ -7,10 +7,10 @@ app.use(cors());
 
 const db = createConnection({ //use your own credentials and information
   host: 'localhost',
-  user: 'Sean',
-  password: 'fairfax30',
+  user: 'YOUR_USER',
+  password: 'YOUR_PW',
   database: 'testdb',
-  port: 3306,
+  port: 'YOUR_PORT',
 });
 
 db.connect((err) => { //verifies connection
