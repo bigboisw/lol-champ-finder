@@ -4,7 +4,7 @@ LOL Champ Finder is an independently created app that returns a random champ tha
 
 All data is scraped directly from the LOL wiki. The source to the uncleaned CSV file can be found [here](https://www.kaggle.com/datasets/liamsmitsdorff/league-of-legends-champion-information?resource=download).
 
-To challenge myself, I decided to add a backend aspect to what was originally going to be a purely frontend project. First, I hosted a local database, wrote scripts to clean the data in the CSV file, and imported the CSV into a table via MySQL Workbench. Then, I created a simple and clean frontend using the Vue framework (HTML, JS, CSS) consisting of a brief website description and dropdown menus that allowed users to choose values corresponding to the column values in the table. I set up a node.js server that took that selected information from the frontend (via Vue's built-in Axios library) and incorporated it into a SQL query that returned the names of all champs fitting the aforementioned criteria. Finally, I returned the response to the frontend and displayed it by showing the champ's name as well as links to its page on the official wiki.
+To challenge myself, I decided to add a backend aspect to what was originally going to be a purely frontend project. First, I hosted a local database, wrote scripts to clean the data in the CSV file, and imported the CSV into a table via MySQL Workbench. Then, I created a simple and clean frontend using the Vue framework (HTML, JS, CSS) consisting of a brief website description and dropdown menus that allowed users to choose values corresponding to the column values in the table. I set up a Node.js server that took that selected information from the frontend (via Vue's built-in Axios library) and incorporated it into a SQL query that returned the names of all champs fitting the aforementioned criteria. Finally, I returned the response to the frontend and displayed it by showing the champ's name as well as links to its page on the official wiki.
 
 A video demonstration of the page can be found [here](https://youtu.be/qNdl4FsTGjs).
 
@@ -28,7 +28,7 @@ npm run build
 npm run lint
 ```
 
-### node.js server
+### Node.js server
 ```
 node server.js
 ```
