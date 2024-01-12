@@ -1,6 +1,6 @@
 # LOL Champ Finder
 
-LOL Champ Finder is an independently created full-stack app that returns a random champ that satisfies the selected criteria. Its purpose is to help new League of Legends players pick a starter they want from the overwhelmingly large pool of 166 champs.
+LOL Champ Finder is an independently created app that returns a random champ that satisfies the selected criteria. Its purpose is to help new League of Legends players pick a starter they want from the overwhelmingly large pool of 166 champs.
 
 All data is scraped directly from the LOL wiki. The source to the uncleaned CSV file can be found [here](https://www.kaggle.com/datasets/liamsmitsdorff/league-of-legends-champion-information?resource=download).
 
